@@ -1,0 +1,15 @@
+# ── Python ──────────────────────────────
+.env
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+*.egg-info/
+generated_pdfs/
+
+# ── OS / IDE ─────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
