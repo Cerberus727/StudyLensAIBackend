@@ -1,33 +1,29 @@
-# StudyLens AI — Python Backend Dependencies
+# ==========================
+# StudyLens AI Backend
+# ==========================
 
-# Web framework
+# FastAPI
 fastapi==0.116.2
-uvicorn==0.32.0
-starlette==0.48.0
+uvicorn[standard]==0.32.0
 
-# AI / LLM
+# AI
 google-genai==1.74.0
 
-# Data validation
+# Validation & Settings
 pydantic==2.11.7
 pydantic-settings==2.10.1
-pydantic_core==2.33.2
 
-# Environment
+# Environment Variables
 python-dotenv==1.0.1
 
-# YouTube transcript fetching
+# YouTube Transcript
 youtube-transcript-api==1.2.4
 
-# PDF generation
+# PDF Generation
 reportlab==4.5.1
 
-# HTTP client (used internally by google-genai)
+# HTTP Client
 httpx==0.28.1
-httpx-sse==0.4.1
 
-# Async support
-anyio==4.9.0
-
-# SSE streaming
+# SSE Streaming
 sse-starlette==3.0.2
